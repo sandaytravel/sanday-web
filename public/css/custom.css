@@ -1,0 +1,285 @@
+.pagination{
+    float: right !important;
+}
+.pagination {
+    float: right !important;
+    padding: 15px 15px 50px 0;
+    margin: 0;
+}
+.pd-lr15 {
+    padding: 0 15px;
+}
+.merchant-login-bg{
+    background: url(../img/login-img.png);
+    background-size: cover;
+}
+
+.no-records{
+    color: red;
+    text-align: center;
+}
+.input-required{
+    color: red;
+}
+small{
+    text-align: left;
+}
+.app-name{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.site-title{
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+.table-responsive {
+    overflow-x: inherit !important;
+}
+.product-imitation-images{
+    padding: 32px 0 !important;
+}
+.list-image .carousel-inner .item{
+    max-height: 162px !important;
+    min-height: 162px !important;
+}
+.product-box{
+    min-height: 400px !important;
+    max-height: 400px !important;
+}
+.view-header h2{
+    margin-top: 3px !important;
+}
+.users-list .active{
+    background-color: lightgray;
+    color: black;
+}
+.inmodal .modal-header{
+    padding: 5px !important;
+}
+.country-table{
+    margin-bottom: 0 !important;
+}
+.ibox-content .panel-heading{
+    padding: 5px 10px !important; 
+}
+.delete-continent{
+    margin-right: 3px;
+}
+.edit-continent{
+    margin-right: 3px;
+}
+.edit-city{
+    margin-right: 3px;
+}
+.panel-heading-child{
+    margin-left: 25px !important;
+}
+.panel-group {
+    margin-bottom: 0px !important;
+}
+.location-panel-body{
+    padding: 4px 18px !important;
+    border: 1px solid lightgray;
+}
+.city-panel-group{
+    margin-bottom: 20px !important;
+}
+.city-panel-body{
+    padding: 3px !important;
+    border: 1px solid lightgray;
+}
+.location-panel-body a h4{
+    color: #333;
+    text-decoration: underline;
+}
+.category-panel-body{
+    padding: 4px 18px !important;
+    border: 1px solid lightgray;
+}
+.category-panel-body a h4{
+    color: #333;
+}
+.delete-category{
+    margin-left: 3px;
+}
+.category-label{
+    padding: 0 !important;
+}
+/*.category-checkbox{
+    margin-left: 10px !important;
+}*/
+.checkbox.cnone label::before{
+    content: none;
+}
+.checkbox.cnone input[type="checkbox"], .checkbox.cnone input[type="radio"]{
+    opacity: 1;
+}
+.activity-ibox-titles h5{
+    font-size: 15px !important;
+}
+.ibox-tools .confirmation-check{
+    position: relative;
+    float: left;
+    margin-left: 10px;
+}
+.faq-template{
+    border-top: 1px dashed #e7eaec;
+    padding: 20px 0 !important;
+}
+.note-editor.panel{
+    border: 1px solid #a9a9a9 !important;
+}
+.add-wrapper {
+    padding: 20px 10px 40px !important;
+}
+.update-wrapper {
+    padding: 20px 10px 40px !important;
+}
+#terms-and-policy .checkbox{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.add-booking{
+    margin-top: 20px !important;
+}
+.dropdown-menu-right{
+    left: auto;
+}
+.add-quantity-option{
+    margin-top: 20px;
+}
+.preview-div{
+    display: inline-block;
+}
+.preview-div .preview-image{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+.preview-div .image-delete{
+    color: red;
+    font-size: 20px;
+}
+.top-navigation #page-wrapper {
+    padding: 0 40px;
+}
+.merchant-login-bg .middle-box h1 {
+    font-size: 70px;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+    color:#fff;
+}
+.color_white{
+    color:#fff;
+}
+.hvr_clrp:hover{
+    color: #1ab394;
+}
+.mb-20{
+    margin-bottom:20px;    
+}
+.mlr-0{
+    margin-left: 0;
+    margin-right: 0;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.package-row:not(:first-child) {
+    border-top: 1px solid #ccc;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.image-priview-activity {
+    max-height: 40px;
+    max-width: 100%;
+    cursor: pointer;
+}
+.mx-800 .modal-content {
+    background: transparent;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0);
+    border: 0px solid;
+}
+
+@media screen and (min-width: 768px) {
+    .merchant-login-bg .loginscreen {
+        background: rgba(0, 0, 0, 0.51);
+        position: absolute !important;
+        left: 50% !important;
+        width: 400px !important;
+        top: 50% !important;
+        transform: translate(-50%,-50%) !important;
+        padding: 0 50px 50px 50px;
+        -webkit-transform: translate(-50%,-50%) !important;
+        -moz-transform: translate(-50%,-50%) !important;
+        -ms-transform: translate(-50%,-50%) !important;
+        -o-transform: translate(-50%,-50%) !important;
+    }
+
+    .merchant-login-bg .has-error .help-block{
+        color:#fff;
+    }
+    .mx-800{
+        width: 800px;
+    }
+}
+@font-face {
+  font-family: 'airbnbcereal_book';
+
+  src: url('../fonts/airbnbcereal_book.ttf');
+  src: url('../fonts/airbnbcereal_light.ttf');
+  src: url('../fonts/airbnbcereal_bold.ttf');
+  src: url('../fonts/airbnbcereal_medium.ttf');
+}
+.dashboard-content{
+    min-height: 400px;
+    max-height: 400px;
+    overflow-y: auto;
+}
+.dashboard-title h5{
+    font-size: 14px;
+}
+#update-category #category-image{
+    max-width: 150px;
+}
+#dashboard-counter{
+    margin-top: 15px;
+}
+#update-activity-form span.select2-selection__clear {
+    display: none;
+}
+.top-navigation .wrapper.wrapper-content{
+    padding: 10px !important;
+}
+.top-navigation .wrapper.wrapper-content .filter-div{
+    padding: 10px;
+    border-bottom: 1px solid #e7eaec;
+}
+.gray-fonts{
+    color: #676a6c;
+}
+.gray-fonts:hover{
+    color: #676a6c;
+}
+.white-fonts{
+    color: #ffffff;
+}
+.blank_row{
+    border-bottom: 2px solid #e7eaec;
+    margin: 4px;
+}
+.margin-zero{
+    margin: 0 !important;
+}
+.vertical-align{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.widget.style1 h2 {
+    font-size: 20px !important;
+}
+.status-change:hover{
+    cursor: pointer;
+}
